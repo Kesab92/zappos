@@ -14,10 +14,37 @@ main {
 }
 .s-Content {
   display: flex;
+  gap: 12px;
+  align-items: center;
 }
 .s-Content__image {
   background-color: #f5f5f5;
   position: relative;
+}
+.s-Likes {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.s-Likes__button {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+}
+.s-Footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.s-Footer__image {
+  display: flex;
+
+  border-radius: 50px;
+}
+.fa-solid {
+  color: #f7c314;
 }
 h1 {
   font-weight: bold;
